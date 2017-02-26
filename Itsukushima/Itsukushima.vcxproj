@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|ARM">
+      <Configuration>Final</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|Win32">
+      <Configuration>Final</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Final|x64">
+      <Configuration>Final</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BB6B5C5-98E3-407A-AD55-F425DC3AFBBD}</ProjectGuid>
+    <RootNamespace>Itsukushima</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|ARM'" Label="Configuration">
+    <PlatformToolset>v140_clang_c2</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|ARM'">
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Final|ARM'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CLanguageStandard>c99</CLanguageStandard>
+      <CppLanguageStandard>c++1y</CppLanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ThirdParty\LodePNG\lodepng.h" />
+    <ClInclude Include="App\GameApp.h" />
+    <ClInclude Include="App\ScreenManager.h" />
+    <ClInclude Include="App\Timer.h" />
+    <ClInclude Include="Core\BufferSizeDefine.h" />
+    <ClInclude Include="Core\CoreHeaders.h" />
+    <ClInclude Include="Core\DebugOutput.h" />
+    <ClInclude Include="Core\GLEW_GLFW.h" />
+    <ClInclude Include="Core\GlobalSetting.h" />
+    <ClInclude Include="Core\PlatformDetect.h" />
+    <ClInclude Include="Core\RefCount.h" />
+    <ClInclude Include="Core\StringHelper.h" />
+    <ClInclude Include="Core\TypeDefine.h" />
+    <ClInclude Include="Game\Camera.h" />
+    <ClInclude Include="Game\DefaultCameraControl.h" />
+    <ClInclude Include="Game\GameObject.h" />
+    <ClInclude Include="Game\GameObjectComponent.h" />
+    <ClInclude Include="Game\Scene.h" />
+    <ClInclude Include="Input\InputDefine.h" />
+    <ClInclude Include="Input\InputManager.h" />
+    <ClInclude Include="Input\InputMapper_glfw.h" />
+    <ClInclude Include="Math\CollisionHelper.h" />
+    <ClInclude Include="Math\MathHelper.h" />
+    <ClInclude Include="Network\BaseNetworkStruct.h" />
+    <ClInclude Include="Network\Client.h" />
+    <ClInclude Include="Network\ClientControl.h" />
+    <ClInclude Include="Network\EncryptionHelper.h" />
+    <ClInclude Include="Network\NetworkManager.h" />
+    <ClInclude Include="Network\RemoteIO.h" />
+    <ClInclude Include="Network\Server.h" />
+    <ClInclude Include="Network\ServerControl.h" />
+    <ClInclude Include="Network\SocketHeaders.h" />
+    <ClInclude Include="Physics\Collider.h" />
+    <ClInclude Include="Physics\CollisionManager.h" />
+    <ClInclude Include="Physics\CutHelper.h" />
+    <ClInclude Include="Physics\PhysicsConstants.h" />
+    <ClInclude Include="Physics\PhysicsStructs.h" />
+    <ClInclude Include="Physics\RigidBody.h" />
+    <ClInclude Include="Render\FBOManager.h" />
+    <ClInclude Include="Render\OpenGL_ErrorCheck.h" />
+    <ClInclude Include="Render\RenderManager.h" />
+    <ClInclude Include="Render\RenderManager_Defines.h" />
+    <ClInclude Include="Resource\CollisionMesh.h" />
+    <ClInclude Include="Resource\Mesh.h" />
+    <ClInclude Include="Resource\Model.h" />
+    <ClInclude Include="Resource\ResourceManager.h" />
+    <ClInclude Include="Resource\ResourceStructDefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ThirdParty\LodePNG\lodepng.cpp" />
+    <ClCompile Include="App\GameApp.cpp" />
+    <ClCompile Include="App\ScreenManager.cpp" />
+    <ClCompile Include="App\Timer.cpp" />
+    <ClCompile Include="Core\DebugOutput.cpp" />
+    <ClCompile Include="Core\GlobalSetting.cpp" />
+    <ClCompile Include="Core\StringHelper.cpp" />
+    <ClCompile Include="Game\Camera.cpp" />
+    <ClCompile Include="Game\DefaultCameraControl.cpp" />
+    <ClCompile Include="Game\GameObject.cpp" />
+    <ClCompile Include="Game\GameObjectComponent.cpp" />
+    <ClCompile Include="Game\Scene.cpp" />
+    <ClCompile Include="Input\InputManager.cpp" />
+    <ClCompile Include="Input\InputMapper_glfw.cpp" />
+    <ClCompile Include="Math\CollisionHelper.cpp" />
+    <ClCompile Include="Math\MathHelper.cpp" />
+    <ClCompile Include="Network\Client.cpp" />
+    <ClCompile Include="Network\ClientControl.cpp" />
+    <ClCompile Include="Network\EncryptionHelper.cpp" />
+    <ClCompile Include="Network\NetworkManager.cpp" />
+    <ClCompile Include="Network\RemoteIO.cpp" />
+    <ClCompile Include="Network\Server.cpp" />
+    <ClCompile Include="Network\ServerControl.cpp" />
+    <ClCompile Include="Physics\Collider.cpp" />
+    <ClCompile Include="Physics\CollisionManager.cpp" />
+    <ClCompile Include="Physics\CutHelper.cpp" />
+    <ClCompile Include="Physics\PhysicsConstants.cpp" />
+    <ClCompile Include="Physics\RigidBody.cpp" />
+    <ClCompile Include="Render\FBOManager.cpp" />
+    <ClCompile Include="Render\RenderManager.cpp" />
+    <ClCompile Include="Resource\CollisionMesh.cpp" />
+    <ClCompile Include="Resource\Mesh.cpp" />
+    <ClCompile Include="Resource\Model.cpp" />
+    <ClCompile Include="Resource\ResourceManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
