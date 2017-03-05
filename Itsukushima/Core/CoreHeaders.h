@@ -4,10 +4,8 @@
 * @author: Kai Yang
 **/
 
-#include <assert.h>
-
-#include "PlatformDetect.h"
-#include "BufferSizeDefine.h"
-#include "TypeDefine.h"
+#include <Core/PlatformDetect.h>
+#include <Core/BufferSizeDefine.h>
+#include <Core/TypeDefine.h>
 #include <Core/RefCount.h>
-#include "DebugOutput.h"
+#include <Core/DebugOutput.h>

@@ -54,14 +54,14 @@ public:
 
 	void SetMomentInertiaType(InertiaType eType);
 
-	void SetVelocity(Vector3 &vVel);
-	void SetAngularVelocity(Vector3 &vVel);
+	void SetVelocity(Vector3 vVel);
+	void SetAngularVelocity(Vector3 vVel);
 
-	void AddForce(Vector3 &vPos, Vector3 &vForce);
-	void AddMovementForce(Vector3 &vForce);//on centre of mass
-	void AddRotationForce(Vector3 &vPos, Vector3 &vForce);
+	void AddForce(Vector3 vPos, Vector3 vForce);
+	void AddMovementForce(Vector3 vForce);//on centre of mass
+	void AddRotationForce(Vector3 vPos, Vector3 vForce);
 
-	void AddTorque(Vector3 &vTorque);
+	void AddTorque(Vector3 vTorque);
 
 	void EnterResting();
 	void LeaveResting();

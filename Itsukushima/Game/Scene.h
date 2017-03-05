@@ -52,7 +52,7 @@ public:
 	void GetComponents(const char* pszCompName, std::list<void *>& pList);
 
 	Vector3		GetGlobalLightDir();
-	void		SetGlobalLightDir(Vector3& vDir);
+	void		SetGlobalLightDir(Vector3 vDir);
 
 private:
 	std::list<GameObject*> m_gameObjectList;//todo:change to linked list

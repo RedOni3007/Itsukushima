@@ -6,7 +6,7 @@
 * @author: Kai Yang
 */
 
-#ifndef ClIENT_CONTROL_COMPONENT_H
+#ifndef CLIENT_CONTROL_COMPONENT_H
 #define CLIENT_CONTROL_COMPONENT_H
 
 #include <Core/CoreHeaders.h>

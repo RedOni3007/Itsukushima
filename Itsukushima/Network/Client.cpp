@@ -394,10 +394,6 @@ Client::SendingManageThread()
 	tv.tv_sec = 0;
 	tv.tv_usec = (long)(Timer::Instance()->GetDeltaTime() * 900);//should always be fixed framerate
 
-	NS_Data* pData = nullptr;
-
-	int32 nSocketFDToSend = -1;
-	bool bBreakByError = false;
 	while(m_eConnectStatus == ClientStatus::CONNECTED)
 	{
 		if(m_sendQueue.size() == 0)

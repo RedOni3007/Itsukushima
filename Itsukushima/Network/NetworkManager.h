@@ -7,7 +7,7 @@
 */
 
 #ifndef NETWORKMANAGER_H
-#define NETWOEKMANAGER_H
+#define NETWORKMANAGER_H
 
 #include <Core/CoreHeaders.h>
 #include <vector>

@@ -613,19 +613,19 @@ RigidBody::SetDynamicFriction(float32 fVal)
 }
 
 void 
-RigidBody::SetVelocity(Vector3 &vVel)
+RigidBody::SetVelocity(Vector3 vVel)
 {
 	m_vVelocity = vVel;
 }
 
 void 
-RigidBody::SetAngularVelocity(Vector3 &vVel)
+RigidBody::SetAngularVelocity(Vector3 vVel)
 {
 	m_vAngularVelocity = vVel;
 }
 
 void 
-RigidBody::AddForce(Vector3 &vPos, Vector3 &vForce)
+RigidBody::AddForce(Vector3 vPos, Vector3 vForce)
 {
 	if(m_bTriggerable && m_bActive == false)
 	{
@@ -666,7 +666,7 @@ RigidBody::AddForce(Vector3 &vPos, Vector3 &vForce)
 }
 
 void 
-RigidBody::AddRotationForce(Vector3 &vPos, Vector3 &vForce)
+RigidBody::AddRotationForce(Vector3 vPos, Vector3 vForce)
 {
 	if(m_bTriggerable && m_bActive == false)
 	{
@@ -700,7 +700,7 @@ RigidBody::AddRotationForce(Vector3 &vPos, Vector3 &vForce)
 }
 
 void 
-RigidBody::AddMovementForce(Vector3 &vForce)
+RigidBody::AddMovementForce(Vector3 vForce)
 {
 	if(m_bTriggerable && m_bActive == false)
 	{
@@ -723,7 +723,7 @@ RigidBody::AddMovementForce(Vector3 &vForce)
 
 }
 
-void RigidBody::AddTorque(Vector3 &vTorque)
+void RigidBody::AddTorque(Vector3 vTorque)
 {
 	if(m_bTriggerable && m_bActive == false)
 	{

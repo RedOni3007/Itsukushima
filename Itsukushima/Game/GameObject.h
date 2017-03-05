@@ -82,8 +82,8 @@ public:
 
 	void RefreshTranformMat();
 
-	void MovePos(Vector3& vMovement);
-	void Rotate(Quaternion& qRot);
+	void MovePos(Vector3 vMovement);
+	void Rotate(Quaternion qRot);
 
 	bool IsMoved();
 

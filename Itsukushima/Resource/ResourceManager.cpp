@@ -274,8 +274,6 @@ ResourceManager::LoadMesh(const char * pszMeshPath, const char* pszMeshName, boo
 	std::vector<Vector3> temp_normals;
 	std::vector<uint32> vertexIndices, uvIndices, normalIndices;
  
-	size_t floatSize = sizeof(float32);
-	size_t uint32Size = sizeof(uint32);
 	while( true )
 	{
 		char lineHeader[LINE_CBUFFER_SIZE];
@@ -307,8 +305,7 @@ ResourceManager::LoadMesh(const char * pszMeshPath, const char* pszMeshName, boo
 		{
 			std::string vertex1, vertex2, vertex3;
 			uint32 vertexIndex[3], uvIndex[3], normalIndex[3];
-			int matches = fscanf_s(file, "%d/%d/%d %d/%d/%d %d/%d/%d\n", &vertexIndex[0], &uvIndex[0], &normalIndex[0], &vertexIndex[1], &uvIndex[1], &normalIndex[1], &vertexIndex[2], &uvIndex[2], &normalIndex[2] 
-																	,uint32Size,uint32Size,uint32Size,uint32Size,uint32Size,uint32Size,uint32Size,uint32Size,uint32Size);
+			int matches = fscanf_s(file, "%d/%d/%d %d/%d/%d %d/%d/%d\n", &vertexIndex[0], &uvIndex[0], &normalIndex[0], &vertexIndex[1], &uvIndex[1], &normalIndex[1], &vertexIndex[2], &uvIndex[2], &normalIndex[2]);
 			if (matches != 9)
 			{
 				Debug::Log("face format wrong in file %s\n",pszMeshPath);
@@ -383,8 +380,6 @@ ResourceManager::LoadCollisionMesh(const char * pszMeshPath, const char* pszMesh
 	std::vector<Vector3> temp_vertices; 
 	std::vector<uint32> vertexIndices;
  
-	size_t floatSize = sizeof(float32);
-	size_t uint32Size = sizeof(uint32);
 	while( true )
 	{
 		char lineHeader[LINE_CBUFFER_SIZE];
@@ -395,7 +390,7 @@ ResourceManager::LoadCollisionMesh(const char * pszMeshPath, const char* pszMesh
 		if ( strcmp( lineHeader, "v" ) == 0 )
 		{
 			Vector3 vertex;
-			fscanf_s(file, "%f %f %f\n", &vertex.x, &vertex.y, &vertex.z,floatSize,floatSize,floatSize);
+			fscanf_s(file, "%f %f %f\n", &vertex.x, &vertex.y, &vertex.z);
 			temp_vertices.push_back(vertex);
 		}
 		else if ( strcmp( lineHeader, "f" ) == 0 )

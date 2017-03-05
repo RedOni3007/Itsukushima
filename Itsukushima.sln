@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Itsukushima", "Itsukushima\Itsukushima.vcxproj", "{2BB6B5C5-98E3-407A-AD55-F425DC3AFBBD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo\Demo.vcxproj", "{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -36,6 +38,22 @@ Global
 		{2BB6B5C5-98E3-407A-AD55-F425DC3AFBBD}.Release|x64.Build.0 = Release|x64
 		{2BB6B5C5-98E3-407A-AD55-F425DC3AFBBD}.Release|x86.ActiveCfg = Release|Win32
 		{2BB6B5C5-98E3-407A-AD55-F425DC3AFBBD}.Release|x86.Build.0 = Release|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Debug|x64.ActiveCfg = Debug|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Debug|x64.Build.0 = Debug|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Debug|x86.Build.0 = Debug|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|ARM.ActiveCfg = Final|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|ARM.Build.0 = Final|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|x64.ActiveCfg = Final|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|x64.Build.0 = Final|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|x86.ActiveCfg = Final|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Final|x86.Build.0 = Final|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Release|ARM.ActiveCfg = Release|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Release|x64.ActiveCfg = Release|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Release|x64.Build.0 = Release|x64
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Release|x86.ActiveCfg = Release|Win32
+		{25AE9C29-59A6-410B-AA18-1F0B394F9B8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{7689ada6-af6c-45bb-b273-67d88fde8505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{1616578d-f778-474e-8ff4-298d507c7115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{efa09831-8444-4482-9058-5ec21444fa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen">
+      <UniqueIdentifier>{9b0aa0da-9d2a-4601-a8c9-25e82e150e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f46c6d9e-5c84-4628-9b6b-857b707ae4ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Basement.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DefaultInputControl.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Parser_NetworkStruct.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RemotePlayer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CutBlade.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CutBladeObjControl.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CutPieceController.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Launcher.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ObjectGenerator.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ObjectPool.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TestPlane.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DamageDemoScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DemoScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NetworkDemoScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ServerClientSelectScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Basement.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DefaultInputControl.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NetworkStruct.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Parser_NetworkStruct.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RemotePlayer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CutBlade.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CutBladeObjControl.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CutPieceController.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Launcher.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ObjectGenerator.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ObjectPool.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TestPlane.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DamageDemoScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DemoScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NetworkDemoScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ServerClientSelectScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Itsukushima_include.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shader\gbuffer_fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\gbuffer_vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\light_global_fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\light_global_vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\touch_highlight_fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\touch_highlight_vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\transparent_fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Assets\Shader\transparent_vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

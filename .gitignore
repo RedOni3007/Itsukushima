@@ -240,3 +240,14 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/DemoIntermediate/Debug_Win32/Demo.tlog
+/Intermediate/Debug__Win32/Itsukushima.tlog
+/Lib/Debug__Win32
+/Demo/Output/Debug_Win32
+/Demo/Output/Final_Win32
+/DemoIntermediate/Final_Win32/Demo.tlog
+/DemoIntermediate/Final_x64/Demo.tlog
+/DemoIntermediate/Release_Win32/Demo.tlog
+/Intermediate
+/Lib/Debug_Win32
+/Lib/Final_Win32

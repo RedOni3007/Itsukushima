@@ -283,7 +283,7 @@ Scene::GetGlobalLightDir()
 }
 	
 void		
-Scene::SetGlobalLightDir(Vector3& vDir)
+Scene::SetGlobalLightDir(Vector3 vDir)
 {
 	m_vGlobalLightDir = vDir;
 }

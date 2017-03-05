@@ -127,57 +127,57 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|Win32'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|x64'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final|ARM'">
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <IncludePath>./;../ThirdParty/glm-0.9.4.6/glm;../ThirdParty/glew-1.10.0/include;../ThirdParty/glfw-3.0.3.bin.WIN32/include;../ThirdParty/freetype-2.5.3\include;../ThirdParty/LodePNG;../ThirdParty/AntTweakBar/include;$(IncludePath)</IncludePath>
     <UseMultiToolTask>true</UseMultiToolTask>
-    <OutDir>..\Lib\$(Configuration)\</OutDir>
-    <IntDir>..\Intermediate\$(Configuration)\</IntDir>
+    <OutDir>..\Lib\$(Configuration)_$(Platform)\</OutDir>
+    <IntDir>..\Intermediate\$(Configuration)_$(Platform)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

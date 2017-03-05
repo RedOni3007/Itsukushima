@@ -577,14 +577,14 @@ GameObject::SetClientControlComponent(ClientControl* pClientControl)
 }
 
 void 
-GameObject::MovePos(Vector3& vMovement)
+GameObject::MovePos(Vector3 vMovement)
 {
 	m_vPos += vMovement;
 	SetPos(m_vPos);
 }
 
 void 
-GameObject::Rotate(Quaternion& qRot)
+GameObject::Rotate(Quaternion qRot)
 {
 	m_qOrientation = m_qOrientation * qRot;//yes it's *, not +
 	SetOrientation(m_qOrientation);
